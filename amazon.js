@@ -99,13 +99,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if(amazonairpad1) {
         amazonairpad1.addEventListener('click', function() {
             trackClicks('airpad1', 'Airpad 1');
-            window.location.href = "https://amzn.to/4tSffgI"
+            window.location.href = "https://amzn.to/4cEkp9O"
         });
     }
     if(amazonairpad2) {
         amazonairpad2.addEventListener('click', function() {
             trackClicks('airpad2','Airpad 2');
-            window.location.href = "https://amzn.to/4aYJDyp"
+            window.location.href = "https://amzn.to/3OsMiI0"
         })
     };
     if(amazonairpad3) {
