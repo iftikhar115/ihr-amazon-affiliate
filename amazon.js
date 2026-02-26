@@ -7,6 +7,7 @@ let clickCounts = {
     phone1: 0,
     phone2: 0,
     phone3: 0,
+    phone4:0,
     cover1: 0,
     cover2: 0,
     cover3: 0
@@ -33,6 +34,7 @@ function addClickCounters() {
         { id: 'phone1', name: 'Phone 1' },
         { id: 'phone2', name: 'Phone 2' },
         { id: 'phone3', name: 'Phone 3' },
+        {id : 'phone4', name: 'phone 4'},
         { id: 'cover1', name: 'Cover 1' },
         { id: 'cover2', name: 'Cover 2' },
         { id: 'cover3', name: 'Cover 3' }
@@ -74,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const amazonphone1 = document.getElementById('phone1');
     const amazonphone2 = document.getElementById('phone2')
     const amazonphone3 = document.getElementById('phone3');
+    const amazonphone4 = document.getElementById('phone4');
     const amazoncover1 = document.getElementById('cover1')
     const amazoncover2 = document.getElementById('cover2')
     const amazoncover3 = document.getElementById('cover3');
@@ -132,6 +135,11 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = "https://amzn.to/40mIFpz"
         })
     };
+    if(amazonphone4) {
+        amazonphone4.addEventListener('click', function() {
+            window.location.href= "https://amzn.to/4s9YVpE";
+        })
+    }
     if(amazoncover1) {
         amazoncover1.addEventListener('click', function() {
             trackClicks('cover1','cover 1');
